@@ -1,0 +1,17 @@
+{
+  "vehicle_wait_seconds": 34244,
+  "mean_vehicle_delay_so_far_s": 132.72868217054264,
+  "pedestrian_wait_seconds": 602,
+  "mean_pedestrian_wait_so_far_s": 22.296296296296298,
+  "max_pedestrian_wait_s": 52,
+  "vehicle_arrivals": 258,
+  "vehicles_served": 146,
+  "pedestrian_arrivals": 27,
+  "pedestrians_served": 26,
+  "vehicles_remaining": 112,
+  "pedestrians_waiting": 1,
+  "pedestrians_crossing": 0,
+  "max_queue": 112,
+  "switches": 14,
+  "safety_violations": 0
+}

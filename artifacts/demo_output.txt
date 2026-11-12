@@ -1,0 +1,800 @@
+
+=== NORMAL scenario ===
+Previous persisted runs: 1; trained episodes: 1500
+  t=   5 phase=NS_GREEN         NS=  0 EW=  1 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-188.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  30 phase=NS_GREEN         NS=  0 EW=  6 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-66.87, EW_GREEN=-82.82
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  55 phase=PEDESTRIAN_WALK  NS=  5 EW=  5 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-342.25
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  80 phase=NS_GREEN         NS=  8 EW=  8 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-270.33
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 105 phase=EW_GREEN         NS=  7 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-399.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 130 phase=PED_CLEARANCE    NS= 14 EW=  7 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-579.06
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 155 phase=NS_GREEN         NS= 16 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-985.74
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 180 phase=PED_CLEARANCE    NS= 24 EW= 15 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1475.58
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 205 phase=EW_GREEN         NS= 32 EW=  9 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-871.05
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 230 phase=ALL_RED          NS= 44 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-626.81
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 255 phase=PEDESTRIAN_WALK  NS= 43 EW= 15 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-830.34, EW_GREEN=-862.68, PEDESTRIAN_WALK=-820.69
+    safety-allowed actions: KEEP, EW_GREEN, PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 280 phase=EW_GREEN         NS= 47 EW= 21 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1432.69
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 305 phase=PEDESTRIAN_WALK  NS= 54 EW= 17 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1273.12
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 330 phase=NS_GREEN         NS= 57 EW= 19 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1338.76
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 355 phase=PED_CLEARANCE    NS= 54 EW= 21 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1407.01
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 380 phase=EW_GREEN         NS= 60 EW= 18 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1328.79
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 405 phase=PED_CLEARANCE    NS= 63 EW= 22 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1145.04
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 430 phase=NS_GREEN         NS= 61 EW= 25 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-949.82
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 455 phase=PED_CLEARANCE    NS= 64 EW= 32 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1145.04
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 480 phase=EW_GREEN         NS= 70 EW= 26 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1258.87
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 505 phase=ALL_RED          NS= 78 EW= 33 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1007.13
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 530 phase=NS_GREEN         NS= 77 EW= 39 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-835.59, EW_GREEN=-858.67
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 555 phase=EW_GREEN         NS= 76 EW= 41 mode=Q-learning permitted action=EW_GREEN
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-821.37, EW_GREEN=-815.46
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 580 phase=PEDESTRIAN_WALK  NS= 84 EW= 35 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1273.12
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+
+=== Run summary ===
+  vehicle_wait_seconds: 38162
+  mean_vehicle_delay_so_far_s: 147.915
+  pedestrian_wait_seconds: 607
+  mean_pedestrian_wait_so_far_s: 22.481
+  max_pedestrian_wait_s: 44
+  pedestrian_wait_target_s: 30
+  pedestrian_wait_over_target_seconds: 64
+  pedestrians_started_over_target: 8
+  pedestrians_currently_over_target: 0
+  vehicle_arrivals: 258
+  vehicles_served: 128
+  pedestrian_arrivals: 27
+  pedestrians_served: 26
+  vehicles_remaining: 130
+  pedestrians_waiting: 1
+  pedestrians_crossing: 0
+  max_queue: 130
+  switches: 14
+  safety_violations: 0
+Evidence saved to artifacts/demos/normal
+
+=== RUSH scenario ===
+Previous persisted runs: 1; trained episodes: 1500
+  t=   5 phase=NS_GREEN         NS=  0 EW=  1 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-188.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  30 phase=PEDESTRIAN_WALK  NS=  2 EW=  8 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-426.87
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  55 phase=EW_GREEN         NS= 13 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-566.23
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  80 phase=PED_CLEARANCE    NS= 22 EW= 12 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-919.15
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 105 phase=NS_GREEN         NS= 25 EW= 17 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1402.43
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 130 phase=PED_CLEARANCE    NS= 33 EW= 19 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1475.58
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 155 phase=EW_GREEN         NS= 44 EW= 17 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1360.03
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 180 phase=ALL_RED          NS= 61 EW= 23 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1362.35
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 205 phase=PEDESTRIAN_WALK  NS= 66 EW= 32 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-1308.19
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 230 phase=EW_GREEN         NS= 79 EW= 35 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1432.69
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 255 phase=PEDESTRIAN_WALK  NS= 90 EW= 33 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1273.12
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 280 phase=NS_GREEN         NS= 93 EW= 43 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1437.83
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 305 phase=PED_CLEARANCE    NS=101 EW= 48 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1250.27
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 330 phase=EW_GREEN         NS=113 EW= 48 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1250.72
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 355 phase=PED_CLEARANCE    NS=124 EW= 48 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1475.58
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 380 phase=NS_GREEN         NS=127 EW= 54 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1331.73
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 405 phase=ALL_RED          NS=135 EW= 62 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1481.25
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 430 phase=PEDESTRIAN_WALK  NS=145 EW= 58 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-1309.37
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 455 phase=NS_GREEN         NS=158 EW= 67 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1432.69
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 480 phase=PEDESTRIAN_WALK  NS=160 EW= 71 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1273.12
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 505 phase=EW_GREEN         NS=170 EW= 79 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1275.42
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 530 phase=PED_CLEARANCE    NS=185 EW= 81 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1407.01
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 555 phase=NS_GREEN         NS=195 EW= 88 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1410.53
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 580 phase=PED_CLEARANCE    NS=202 EW= 94 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1475.58
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+
+=== Run summary ===
+  vehicle_wait_seconds: 87430
+  mean_vehicle_delay_so_far_s: 203.800
+  pedestrian_wait_seconds: 1593
+  mean_pedestrian_wait_so_far_s: 22.437
+  max_pedestrian_wait_s: 45
+  pedestrian_wait_target_s: 30
+  pedestrian_wait_over_target_seconds: 179
+  pedestrians_started_over_target: 21
+  pedestrians_currently_over_target: 2
+  vehicle_arrivals: 429
+  vehicles_served: 119
+  pedestrian_arrivals: 71
+  pedestrians_served: 65
+  vehicles_remaining: 310
+  pedestrians_waiting: 6
+  pedestrians_crossing: 0
+  max_queue: 310
+  switches: 13
+  safety_violations: 0
+Evidence saved to artifacts/demos/rush
+
+=== SHIFT scenario ===
+Previous persisted runs: 1; trained episodes: 1500
+  t=   5 phase=NS_GREEN         NS=  0 EW=  0 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-188.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  30 phase=NS_GREEN         NS=  0 EW=  3 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-55.03, EW_GREEN=-66.29
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  55 phase=PED_CLEARANCE    NS=  7 EW=  8 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-373.79
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  80 phase=EW_GREEN         NS= 12 EW=  0 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-484.82
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 105 phase=ALL_RED          NS= 20 EW=  2 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-748.04
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 130 phase=PEDESTRIAN_WALK  NS= 20 EW=  3 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-686.73
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 155 phase=EW_GREEN         NS= 29 EW=  4 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-614.07
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 180 phase=NS_GREEN         NS= 43 EW=  0 mode=Q-learning permitted action=NS_GREEN
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-337.41, NS_GREEN=-334.20, PEDESTRIAN_WALK=-346.72
+    safety-allowed actions: KEEP, NS_GREEN, PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 205 phase=PEDESTRIAN_WALK  NS= 46 EW=  2 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-686.50
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 230 phase=EW_GREEN         NS= 58 EW=  0 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-409.65
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 255 phase=NS_GREEN         NS= 66 EW=  0 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-730.15
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 280 phase=PED_CLEARANCE    NS= 67 EW=  6 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-781.14
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 305 phase=EW_GREEN         NS= 76 EW=  2 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-692.15
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 330 phase=PED_CLEARANCE    NS= 85 EW=  1 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-770.36
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 355 phase=NS_GREEN         NS= 82 EW=  2 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-726.44
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 380 phase=ALL_RED          NS= 89 EW=  3 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-617.41
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 405 phase=NS_GREEN         NS= 95 EW=  1 mode=Q-learning permitted action=NS_GREEN
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-654.67, NS_GREEN=-650.32, PEDESTRIAN_WALK=-657.28
+    safety-allowed actions: KEEP, NS_GREEN, PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 430 phase=PEDESTRIAN_WALK  NS= 97 EW=  3 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-686.50
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 455 phase=EW_GREEN         NS=109 EW=  4 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-793.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 480 phase=PED_CLEARANCE    NS=118 EW=  2 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-759.31
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 505 phase=NS_GREEN         NS=120 EW=  7 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-920.58
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 530 phase=PED_CLEARANCE    NS=129 EW= 10 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-717.20
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 555 phase=EW_GREEN         NS=143 EW=  3 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-426.44
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 580 phase=NS_GREEN         NS=146 EW=  2 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-726.44
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+
+=== Run summary ===
+  vehicle_wait_seconds: 44545
+  mean_vehicle_delay_so_far_s: 163.768
+  pedestrian_wait_seconds: 547
+  mean_pedestrian_wait_so_far_s: 20.259
+  max_pedestrian_wait_s: 45
+  pedestrian_wait_target_s: 30
+  pedestrian_wait_over_target_seconds: 59
+  pedestrians_started_over_target: 9
+  pedestrians_currently_over_target: 0
+  vehicle_arrivals: 272
+  vehicles_served: 113
+  pedestrian_arrivals: 27
+  pedestrians_served: 26
+  vehicles_remaining: 159
+  pedestrians_waiting: 1
+  pedestrians_crossing: 0
+  max_queue: 159
+  switches: 15
+  safety_violations: 0
+Evidence saved to artifacts/demos/shift
+
+=== UNCERTAINTY scenario ===
+Previous persisted runs: 1; trained episodes: 1500
+  t=   5 phase=NS_GREEN         NS=  0 EW=  1 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-188.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  30 phase=NS_GREEN         NS=  0 EW=  6 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-66.87, EW_GREEN=-82.82
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  55 phase=PEDESTRIAN_WALK  NS=  5 EW=  5 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.14, fuzzy reliability=0.807 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-342.25
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+>>t=  70 phase=PED_CLEARANCE    NS=  7 EW=  6 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.60 (valid), age=0s, disagreement=0.50, fuzzy reliability=0.463 -> Re-observe camera
+    camera try 3: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t=  80 phase=NS_GREEN         NS=  8 EW=  8 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.60 (valid), age=0s, disagreement=0.11, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 3: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 105 phase=PEDESTRIAN_WALK  NS=  7 EW= 13 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.00 (INVALID/missing), age=n/a, disagreement=n/a, fuzzy reliability=n/a -> Safe fallback
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 130 phase=EW_GREEN         NS= 14 EW= 10 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.10 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.200 -> Safe fallback
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+>>t= 145 phase=PEDESTRIAN_WALK  NS= 18 EW=  9 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=7s, disagreement=0.00, fuzzy reliability=0.650 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-857.36
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 155 phase=PED_CLEARANCE    NS= 22 EW=  9 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=7s, disagreement=0.00, fuzzy reliability=0.650 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-781.14
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 180 phase=NS_GREEN         NS= 27 EW= 13 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-745.09
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 205 phase=PED_CLEARANCE    NS= 32 EW= 16 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1145.04
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 230 phase=EW_GREEN         NS= 44 EW=  9 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-426.44
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 255 phase=NS_GREEN         NS= 50 EW=  6 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.12, fuzzy reliability=0.825 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-985.92
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+>>t= 270 phase=PEDESTRIAN_WALK  NS= 46 EW= 12 mode=Safe fallback action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.60 (valid), age=0s, disagreement=0.25, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 3: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 280 phase=PED_CLEARANCE    NS= 49 EW= 13 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.60 (valid), age=0s, disagreement=0.23, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 3: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 305 phase=EW_GREEN         NS= 56 EW= 11 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.00 (INVALID/missing), age=n/a, disagreement=n/a, fuzzy reliability=n/a -> Safe fallback
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 330 phase=PED_CLEARANCE    NS= 63 EW= 10 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.10 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.200 -> Safe fallback
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+>>t= 345 phase=NS_GREEN         NS= 60 EW= 12 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=7s, disagreement=0.00, fuzzy reliability=0.650 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-985.92
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 355 phase=NS_GREEN         NS= 56 EW= 12 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=7s, disagreement=0.00, fuzzy reliability=0.650 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-873.85
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 380 phase=ALL_RED          NS= 62 EW= 15 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1007.13
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 405 phase=EW_GREEN         NS= 65 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-764.14, NS_GREEN=-795.28, PEDESTRIAN_WALK=-770.78
+    safety-allowed actions: KEEP, NS_GREEN, PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 430 phase=ALL_RED          NS= 72 EW= 14 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-626.81
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 455 phase=NS_GREEN         NS= 66 EW= 21 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1205.74, EW_GREEN=-1269.64, PEDESTRIAN_WALK=-1272.79
+    safety-allowed actions: KEEP, EW_GREEN, PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+>>t= 470 phase=PED_CLEARANCE    NS= 70 EW= 23 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.60 (valid), age=0s, disagreement=0.19, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 3: confidence=0.60 (valid), age=0s, disagreement=0.12, fuzzy reliability=0.667 -> Re-observe camera
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 480 phase=ALL_RED          NS= 72 EW= 24 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 2: confidence=0.60 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.667 -> Re-observe camera
+    camera try 3: confidence=0.60 (valid), age=0s, disagreement=0.04, fuzzy reliability=0.667 -> Re-observe camera
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 505 phase=PEDESTRIAN_WALK  NS= 80 EW= 22 mode=Safe fallback action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.00 (INVALID/missing), age=n/a, disagreement=n/a, fuzzy reliability=n/a -> Safe fallback
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+  t= 530 phase=NS_GREEN         NS= 89 EW= 28 mode=Safe fallback action=KEEP
+    camera try 1: confidence=0.10 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.200 -> Safe fallback
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Missing/invalid or low-confidence observation, or bounded rechecks exhausted.
+>>t= 545 phase=NS_GREEN         NS= 86 EW= 30 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=7s, disagreement=0.00, fuzzy reliability=0.650 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-949.82
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 555 phase=NS_GREEN         NS= 85 EW= 30 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=7s, disagreement=0.00, fuzzy reliability=0.650 -> Re-observe camera
+    camera try 2: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-740.71, EW_GREEN=-751.75
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 580 phase=EW_GREEN         NS= 88 EW= 26 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1328.79
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+
+=== Run summary ===
+  vehicle_wait_seconds: 37139
+  mean_vehicle_delay_so_far_s: 143.950
+  pedestrian_wait_seconds: 602
+  mean_pedestrian_wait_so_far_s: 22.296
+  max_pedestrian_wait_s: 44
+  pedestrian_wait_target_s: 30
+  pedestrian_wait_over_target_seconds: 72
+  pedestrians_started_over_target: 9
+  pedestrians_currently_over_target: 0
+  vehicle_arrivals: 258
+  vehicles_served: 134
+  pedestrian_arrivals: 27
+  pedestrians_served: 26
+  vehicles_remaining: 124
+  pedestrians_waiting: 1
+  pedestrians_crossing: 0
+  max_queue: 124
+  switches: 14
+  safety_violations: 0
+Evidence saved to artifacts/demos/uncertainty
+
+=== FAILURES scenario ===
+Previous persisted runs: 1; trained episodes: 1500
+  t=   5 phase=NS_GREEN         NS=  0 EW=  1 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-188.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  30 phase=NS_GREEN         NS=  0 EW=  6 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-66.87, EW_GREEN=-82.82
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  55 phase=PEDESTRIAN_WALK  NS=  5 EW=  5 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): PEDESTRIAN_WALK=-342.25
+    safety-allowed actions: PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t=  80 phase=NS_GREEN         NS=  8 EW=  8 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-270.33
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 105 phase=EW_GREEN         NS=  7 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-399.96
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 130 phase=PED_CLEARANCE    NS= 14 EW=  7 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-579.06
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+>>t= 145 phase=NS_GREEN         NS= 17 EW= 11 mode=Manual override action=KEEP
+    safety-allowed actions: KEEP
+    proposed=EW_GREEN but executed=KEEP (safety rule)
+    command: acknowledged | reason: Authorised manual control; hard timing and crossing constraints still apply. Requested manual action was blocked by safety rules.
+  t= 155 phase=NS_GREEN         NS= 16 EW= 11 mode=Manual override action=KEEP
+    safety-allowed actions: KEEP
+    proposed=EW_GREEN but executed=KEEP (safety rule)
+    command: acknowledged | reason: Authorised manual control; hard timing and crossing constraints still apply. Requested manual action was blocked by safety rules.
+>>t= 165 phase=PEDESTRIAN_WALK  NS= 16 EW= 12 mode=Resume verification action=PEDESTRIAN_WALK
+    safety-allowed actions: PEDESTRIAN_WALK
+    proposed=KEEP but executed=PEDESTRIAN_WALK (safety rule)
+    command: acknowledged | reason: Fresh controller state confirmed after manual release; one fallback step before autonomous control.
+>>t= 170 phase=PEDESTRIAN_WALK  NS= 17 EW= 14 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-815.46
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 180 phase=PED_CLEARANCE    NS= 24 EW= 15 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1475.58
+    safety-allowed actions: KEEP
+    command: timeout | reason: Reliable camera; choose among safety-permitted actions using Q-values. Actual controller state recovered; ambiguous transition excluded from learning.
+  ALERT: Command failed or acknowledgement lost; readback obtained, no retry this step.
+  t= 200 phase=EW_GREEN         NS= 29 EW= 11 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-834.52
+    safety-allowed actions: KEEP
+    command: timeout | reason: Reliable camera; choose among safety-permitted actions using Q-values. Actual controller state recovered; ambiguous transition excluded from learning.
+  ALERT: Command failed or acknowledgement lost; readback obtained, no retry this step.
+  t= 205 phase=EW_GREEN         NS= 32 EW=  9 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-871.05
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+>>t= 220 phase=PED_CLEARANCE    NS= 39 EW= 10 mode=Blocked: unconfirmed signal state action=KEEP
+    command: not_sent | reason: No fresh controller readback. No remote command issued.
+  ALERT: Supervisor: verify controller connection.
+  t= 225 phase=PED_CLEARANCE    NS= 43 EW= 10 mode=Blocked: unconfirmed signal state action=KEEP
+    command: not_sent | reason: No fresh controller readback. No remote command issued.
+  ALERT: Supervisor: verify controller connection.
+  t= 230 phase=ALL_RED          NS= 44 EW= 11 mode=Blocked: unconfirmed signal state action=KEEP
+    command: not_sent | reason: No fresh controller readback. No remote command issued.
+  ALERT: Supervisor: verify controller connection.
+>>t= 235 phase=NS_GREEN         NS= 44 EW= 12 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-614.07
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 255 phase=PEDESTRIAN_WALK  NS= 43 EW= 15 mode=Q-learning permitted action=PEDESTRIAN_WALK
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-830.34, EW_GREEN=-862.68, PEDESTRIAN_WALK=-820.69
+    safety-allowed actions: KEEP, EW_GREEN, PEDESTRIAN_WALK
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 280 phase=EW_GREEN         NS= 47 EW= 21 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1432.69
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 305 phase=PEDESTRIAN_WALK  NS= 54 EW= 17 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1273.12
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 330 phase=NS_GREEN         NS= 57 EW= 19 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1338.76
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 355 phase=PED_CLEARANCE    NS= 54 EW= 21 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1407.01
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 380 phase=EW_GREEN         NS= 60 EW= 18 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1328.79
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 405 phase=PED_CLEARANCE    NS= 63 EW= 22 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1145.04
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 430 phase=NS_GREEN         NS= 61 EW= 25 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-949.82
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 455 phase=PED_CLEARANCE    NS= 64 EW= 32 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1145.04
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 480 phase=EW_GREEN         NS= 70 EW= 26 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1258.87
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 505 phase=ALL_RED          NS= 78 EW= 33 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1007.13
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 530 phase=NS_GREEN         NS= 77 EW= 39 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-835.59, EW_GREEN=-858.67
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 555 phase=EW_GREEN         NS= 76 EW= 41 mode=Q-learning permitted action=EW_GREEN
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-821.37, EW_GREEN=-815.46
+    safety-allowed actions: KEEP, EW_GREEN
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+  t= 580 phase=PEDESTRIAN_WALK  NS= 84 EW= 35 mode=Q-learning permitted action=KEEP
+    camera try 1: confidence=0.90 (valid), age=0s, disagreement=0.00, fuzzy reliability=0.900 -> Q-learning permitted
+    Q-values (allowed actions): KEEP=-1273.12
+    safety-allowed actions: KEEP
+    command: acknowledged | reason: Reliable camera; choose among safety-permitted actions using Q-values.
+
+=== Run summary ===
+  vehicle_wait_seconds: 38162
+  mean_vehicle_delay_so_far_s: 147.915
+  pedestrian_wait_seconds: 607
+  mean_pedestrian_wait_so_far_s: 22.481
+  max_pedestrian_wait_s: 44
+  pedestrian_wait_target_s: 30
+  pedestrian_wait_over_target_seconds: 64
+  pedestrians_started_over_target: 8
+  pedestrians_currently_over_target: 0
+  vehicle_arrivals: 258
+  vehicles_served: 128
+  pedestrian_arrivals: 27
+  pedestrians_served: 26
+  vehicles_remaining: 130
+  pedestrians_waiting: 1
+  pedestrians_crossing: 0
+  max_queue: 130
+  switches: 14
+  safety_violations: 0
+Evidence saved to artifacts/demos/failures
+
+=== All-scenario comparison (simulation only) ===
+Scenario       Vehicle delay  Ped. wait  Max ped. wait  Over-target wait
+normal               147.9       22.5             44               64
+rush                 203.8       22.4             45              179
+shift                163.8       20.3             45               59
+uncertainty          143.9       22.3             44               72
+failures             147.9       22.5             44               64

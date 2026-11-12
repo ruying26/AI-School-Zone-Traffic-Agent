@@ -1,0 +1,22 @@
+{
+  "step_seconds": 5,
+  "min_green_seconds": 15,
+  "max_green_seconds": 45,
+  "fallback_green_seconds": 25,
+  "yellow_seconds": 3,
+  "all_red_seconds": 2,
+  "walk_seconds": 10,
+  "pedestrian_clearance_seconds": 10,
+  "max_pedestrian_wait_seconds": 30,
+  "service_interval_seconds": 2,
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "epsilon_decay": 0.995,
+  "pedestrian_wait_weight": 3.0,
+  "switch_penalty": 2.0,
+  "training_episodes": 1500,
+  "episode_steps": 120,
+  "training_seed": 42
+}

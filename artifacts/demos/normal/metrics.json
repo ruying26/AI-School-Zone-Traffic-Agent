@@ -1,0 +1,21 @@
+{
+  "vehicle_wait_seconds": 38162,
+  "mean_vehicle_delay_so_far_s": 147.91472868217053,
+  "pedestrian_wait_seconds": 607,
+  "mean_pedestrian_wait_so_far_s": 22.48148148148148,
+  "max_pedestrian_wait_s": 44,
+  "pedestrian_wait_target_s": 30,
+  "pedestrian_wait_over_target_seconds": 64,
+  "pedestrians_started_over_target": 8,
+  "pedestrians_currently_over_target": 0,
+  "vehicle_arrivals": 258,
+  "vehicles_served": 128,
+  "pedestrian_arrivals": 27,
+  "pedestrians_served": 26,
+  "vehicles_remaining": 130,
+  "pedestrians_waiting": 1,
+  "pedestrians_crossing": 0,
+  "max_queue": 130,
+  "switches": 14,
+  "safety_violations": 0
+}

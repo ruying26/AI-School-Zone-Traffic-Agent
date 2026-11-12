@@ -1,0 +1,35 @@
+test_ageing_observation_rechecks_and_recovers (test_agent.AgentTests.test_ageing_observation_rechecks_and_recovers) ... ok
+test_arrival_schedules_are_reproducible (test_agent.AgentTests.test_arrival_schedules_are_reproducible) ... ok
+test_bad_confidence_rejected (test_agent.AgentTests.test_bad_confidence_rejected) ... ok
+test_disagreeing_observations_activate_fallback (test_agent.AgentTests.test_disagreeing_observations_activate_fallback) ... ok
+test_explicit_yellow_and_all_red (test_agent.AgentTests.test_explicit_yellow_and_all_red) ... ok
+test_fuzzy_age_changes_permission (test_agent.AgentTests.test_fuzzy_age_changes_permission) ... ok
+test_fuzzy_boundaries (test_agent.AgentTests.test_fuzzy_boundaries) ... ok
+test_fuzzy_disagreement_overrules_high_confidence (test_agent.AgentTests.test_fuzzy_disagreement_overrules_high_confidence) ... ok
+test_lost_ack_after_execution_uses_actual_state (test_agent.AgentTests.test_lost_ack_after_execution_uses_actual_state) ... ok
+test_manual_override_obeys_safety (test_agent.AgentTests.test_manual_override_obeys_safety) ... ok
+test_manual_release_requires_confirmation (test_agent.AgentTests.test_manual_release_requires_confirmation) ... ok
+test_max_green_masks_keep (test_agent.AgentTests.test_max_green_masks_keep) ... ok
+test_medium_confidence_recovers_on_second_reading (test_agent.AgentTests.test_medium_confidence_recovers_on_second_reading) ... ok
+test_memory_persists_and_working_memory_is_bounded (test_agent.AgentTests.test_memory_persists_and_working_memory_is_bounded) ... ok
+test_minimum_green_rejects_switch (test_agent.AgentTests.test_minimum_green_rejects_switch) ... ok
+test_missing_camera_fallback_without_retries (test_agent.AgentTests.test_missing_camera_fallback_without_retries) ... ok
+test_model_round_trip_and_readonly_inference (test_agent.AgentTests.test_model_round_trip_and_readonly_inference) ... ok
+test_new_request_during_walk_is_not_lost (test_agent.AgentTests.test_new_request_during_walk_is_not_lost) ... ok
+test_pedestrian_deadline_masks_keep (test_agent.AgentTests.test_pedestrian_deadline_masks_keep) ... ok
+test_pedestrian_target_exceedance_is_reported (test_agent.AgentTests.test_pedestrian_target_exceedance_is_reported) ... ok
+test_post_command_readback_failure_activates_local_watchdog (test_agent.AgentTests.test_post_command_readback_failure_activates_local_watchdog) ... ok
+test_predictive_pedestrian_urgency_respects_minimum_green (test_agent.AgentTests.test_predictive_pedestrian_urgency_respects_minimum_green) ... ok
+test_q_update_respects_mask_and_terminal (test_agent.AgentTests.test_q_update_respects_mask_and_terminal) ... ok
+test_reliable_camera_uses_learned_action (test_agent.AgentTests.test_reliable_camera_uses_learned_action) ... ok
+test_stale_or_future_reading_rejected (test_agent.AgentTests.test_stale_or_future_reading_rejected) ... ok
+test_timeout_before_command_does_not_change_phase_or_retry (test_agent.AgentTests.test_timeout_before_command_does_not_change_phase_or_retry) ... ok
+test_uncertainty_retries_are_bounded_and_execute_fallback (test_agent.AgentTests.test_uncertainty_retries_are_bounded_and_execute_fallback) ... ok
+test_unknown_policy_state_uses_fallback_without_mutating_table (test_agent.AgentTests.test_unknown_policy_state_uses_fallback_without_mutating_table) ... ok
+test_unreadable_controller_blocks_remote_commands_then_recovers (test_agent.AgentTests.test_unreadable_controller_blocks_remote_commands_then_recovers) ... ok
+test_walk_and_clearance_block_vehicles (test_agent.AgentTests.test_walk_and_clearance_block_vehicles) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.041s
+
+OK
